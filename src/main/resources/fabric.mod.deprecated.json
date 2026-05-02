@@ -1,0 +1,17 @@
+{
+  "entrypoints": {
+    "modmenu": [
+      "com.vladmarica.betterpingdisplay.integ.ModMenuIntegration"
+    ]
+  },
+
+  "suggests": {
+    "yet_another_config_lib_v3": ">=3.8.1+1.21.11-fabric"
+  },
+
+  "custom": {
+    "modmenu": {
+      "update_checker": false
+    }
+  }
+}

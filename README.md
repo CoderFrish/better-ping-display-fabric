@@ -17,7 +17,7 @@ This mod's config file is `betterpingdisplay.json`. It contains the following op
 | Option  | Default Value  | Description  |
 |---|---|---|
 | autoColorPingText  | `true` | Whether to color a player's ping based on their latency. |
-| renderPingBars  | `false` | Whether to also draw the default Minecraft ping bars  |
+~~| renderPingBars  | `false` | Whether to also draw the default Minecraft ping bars  |~~
 | pingTextColor  | `#A0A0A0`  | The ping text color to use. Only works whens `autoColorPingText` is false |
 | pingTextFormatString | `%dms` | The format string for ping text. Must include a `%d`, which will be replaced dynamically by the actual ping value.
 
@@ -35,6 +35,7 @@ This mod's config file is `betterpingdisplay.json`. It contains the following op
 * **1.19.x**
 * **1.20.x**
 * **1.21.x**
+* **21.1.x**
 
 ## Requirements
 * [Fabric](https://fabricmc.net/)
